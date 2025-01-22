@@ -4,18 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-python-dotenv = "*"
 asgiref = "*"
+django = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 pyjwt = "*"
 pytz = "*"
 sqlparse = "*"
+python-dotenv = "*"
 psycopg2-binary = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9.17"
+python_version = "3.9"
